@@ -1,0 +1,58 @@
+[
+  {
+    "id": "aether-analytics",
+    "title": {
+      "en": "Aether Analytics",
+      "tr": "Aether Analytics"
+    },
+    "techStack": ["Python", "React", "TypeScript", "PostgreSQL"],
+    "description": {
+      "en": "A real-time analytics dashboard that turns dense telemetry into calm, legible visual rhythm.",
+      "tr": "Yoğun telemetriyi sakin ve okunabilir bir görsel ritme dönüştüren gerçek zamanlı analiz panosu."
+    },
+    "imagePath": "/projects/aether-analytics.svg",
+    "liveLink": "https://example.com/aether-analytics"
+  },
+  {
+    "id": "nocturne-commerce",
+    "title": {
+      "en": "Nocturne Commerce",
+      "tr": "Nocturne Commerce"
+    },
+    "techStack": ["Next.js", "TypeScript", "Stripe", "Tailwind"],
+    "description": {
+      "en": "A headless commerce storefront built for restraint — fast checkout, zero visual noise.",
+      "tr": "Sadelik için inşa edilmiş headless ticaret vitrini — hızlı ödeme, sıfır görsel gürültü."
+    },
+    "imagePath": "/projects/nocturne-commerce.svg",
+    "liveLink": "https://example.com/nocturne-commerce"
+  },
+  {
+    "id": "signal-os",
+    "title": {
+      "en": "Signal OS",
+      "tr": "Signal OS"
+    },
+    "techStack": ["Rust", "WebAssembly", "React", "WebGL"],
+    "description": {
+      "en": "An in-browser signal processing environment rendering thousands of live data points at 60fps.",
+      "tr": "Tarayıcı içinde binlerce canlı veri noktasını 60fps'de işleyen bir sinyal işleme ortamı."
+    },
+    "imagePath": "/projects/signal-os.svg",
+    "liveLink": "https://example.com/signal-os"
+  },
+  {
+    "id": "hollow-cms",
+    "title": {
+      "en": "Hollow CMS",
+      "tr": "Hollow CMS"
+    },
+    "techStack": ["Node.js", "GraphQL", "React", "Docker"],
+    "description": {
+      "en": "A structured-content engine for editorial teams, designed to disappear behind the words.",
+      "tr": "Editoryal ekipler için kelimelerin arkasında kaybolmak üzere tasarlanmış yapılandırılmış içerik motoru."
+    },
+    "imagePath": "/projects/hollow-cms.svg",
+    "liveLink": "https://example.com/hollow-cms"
+  }
+]

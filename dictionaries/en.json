@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Neit-OS — Selected Works",
+    "description": "A minimal digital exhibition of interface and interaction design."
+  },
+  "nav": {
+    "mark": "N.O",
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "kicker": "Software Technician — Interfaces & Systems",
+    "title": "Quiet interfaces,\nfor loud ideas.",
+    "subtitle": "I design and build software that disappears into the experience — leaving only clarity, motion, and space to think.",
+    "scroll": "Scroll to explore"
+  },
+  "work": {
+    "kicker": "Selected Work",
+    "title": "Fragments of process",
+    "viewLive": "View live",
+    "role": "Role"
+  },
+  "about": {
+    "kicker": "About",
+    "title": "Built in the space\nbetween silence and code.",
+    "body": "I'm a software technician who treats interfaces like exhibitions — every pixel considered, every interaction intentional. My work sits at the intersection of technical rigor and quiet, atmospheric design.",
+    "resume": "Download Résumé"
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Let's build\nsomething quiet.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending…",
+    "success": "Message received. I'll be in touch shortly.",
+    "error": "Something went wrong — please try again.",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "you@example.com",
+    "messagePlaceholder": "Tell me about your project…"
+  },
+  "language": {
+    "en": "EN",
+    "tr": "TR"
+  },
+  "preloader": {
+    "label": "Compiling the fog"
+  },
+  "notFound": {
+    "kicker": "404",
+    "title": "Lost in the fog",
+    "body": "The page you're looking for has drifted somewhere beyond the mist.",
+    "cta": "Return to safety"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "made": "Crafted in the void."
+  }
+}

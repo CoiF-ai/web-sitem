@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Neit-OS — Seçilmiş Çalışmalar",
+    "description": "Arayüz ve etkileşim tasarımının minimal dijital sergisi."
+  },
+  "nav": {
+    "mark": "N.O",
+    "work": "Çalışmalar",
+    "about": "Hakkımda",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "kicker": "Yazılım Teknikeri — Arayüzler & Sistemler",
+    "title": "Sessiz arayüzler,\ngürültülü fikirler için.",
+    "subtitle": "Deneyimin içinde kaybolan yazılımlar tasarlıyor ve inşa ediyorum — geride yalnızca netlik, hareket ve düşünmek için alan bırakan.",
+    "scroll": "Kaydırarak keşfet"
+  },
+  "work": {
+    "kicker": "Seçilmiş Çalışmalar",
+    "title": "Sürecin parçaları",
+    "viewLive": "Canlı görüntüle",
+    "role": "Rol"
+  },
+  "about": {
+    "kicker": "Hakkımda",
+    "title": "Sessizlik ile kod\narasındaki boşlukta inşa edildi.",
+    "body": "Arayüzlere sergi gibi yaklaşan bir yazılım teknikeriyim — her piksel düşünülmüş, her etkileşim kasıtlı. Çalışmalarım teknik disiplin ile sessiz, atmosferik tasarımın kesişiminde yer alır.",
+    "resume": "Özgeçmişi İndir"
+  },
+  "contact": {
+    "kicker": "İletişim",
+    "title": "Sessiz bir şey\ninşa edelim.",
+    "name": "Ad",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "send": "Mesajı gönder",
+    "sending": "Gönderiliyor…",
+    "success": "Mesajınız alındı. Yakında sizinle iletişime geçeceğim.",
+    "error": "Bir şeyler ters gitti — lütfen tekrar deneyin.",
+    "namePlaceholder": "Adınız",
+    "emailPlaceholder": "siz@ornek.com",
+    "messagePlaceholder": "Projenizden bahsedin…"
+  },
+  "language": {
+    "en": "EN",
+    "tr": "TR"
+  },
+  "preloader": {
+    "label": "Sis derleniyor"
+  },
+  "notFound": {
+    "kicker": "404",
+    "title": "Sisin içinde kayboldun",
+    "body": "Aradığınız sayfa sisin ötesine sürüklenmiş görünüyor.",
+    "cta": "Güvenli alana dön"
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "made": "Boşlukta üretildi."
+  }
+}
