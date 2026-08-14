@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
+import CustomCursor from "@/components/CustomCursor";
 import "./globals.css";
 
 const display = Playfair_Display({
@@ -33,7 +34,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`}>
-      <body className="bg-void text-mist antialiased">{children}</body>
+      <body className="bg-void text-mist antialiased">
+        <CustomCursor />
+        {children}
+      </body>
     </html>
   );
 }

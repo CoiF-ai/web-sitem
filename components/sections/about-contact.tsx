@@ -2,6 +2,8 @@ import { getDictionary } from "@/lib/dictionaries";
 import type { Locale } from "@/i18n/config";
 import ResumeLink from "@/components/contact/resume-link";
 import ContactForm from "@/components/contact/contact-form";
+import QuickEmailCapture from "@/components/contact/quick-email-capture";
+import FadeInReveal from "@/components/FadeInReveal";
 
 export default async function AboutContact({ locale }: { locale: Locale }) {
   const dict = await getDictionary(locale);
@@ -14,7 +16,7 @@ export default async function AboutContact({ locale }: { locale: Locale }) {
         id="about"
         className="relative mx-auto max-w-4xl px-6 py-24 md:px-16 md:py-40"
       >
-        <div className="flex flex-col gap-6">
+        <FadeInReveal className="flex flex-col gap-6">
           <span className="font-body text-[11px] uppercase tracking-widest text-mist-dim">
             {dict.about.kicker}
           </span>
@@ -31,14 +33,14 @@ export default async function AboutContact({ locale }: { locale: Locale }) {
           <div className="pt-2">
             <ResumeLink label={dict.about.resume} />
           </div>
-        </div>
+        </FadeInReveal>
       </section>
 
       <section
         id="contact"
         className="relative mx-auto flex max-w-4xl flex-col gap-14 px-6 py-24 md:flex-row md:justify-between md:px-16 md:py-40"
       >
-        <div className="flex flex-col gap-6">
+        <FadeInReveal className="flex flex-col gap-6">
           <span className="font-body text-[11px] uppercase tracking-widest text-mist-dim">
             {dict.contact.kicker}
           </span>
@@ -49,8 +51,11 @@ export default async function AboutContact({ locale }: { locale: Locale }) {
               </span>
             ))}
           </h2>
-        </div>
-        <ContactForm />
+          <QuickEmailCapture placeholder={dict.contact.emailPlaceholder} />
+        </FadeInReveal>
+        <FadeInReveal delay={0.15}>
+          <ContactForm />
+        </FadeInReveal>
       </section>
     </>
   );

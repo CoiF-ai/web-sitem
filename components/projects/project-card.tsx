@@ -22,28 +22,28 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
   return (
     <motion.article
       className={cn(
-        "grid items-center gap-8 py-20 md:grid-cols-2 md:gap-16 md:py-32",
+        "group relative grid items-center gap-8 rounded-lg border border-transparent py-20 transition-all duration-500 hover:border-white/10 hover:shadow-[0_0_60px_-18px_rgba(255,255,255,0.18)] md:grid-cols-2 md:gap-16 md:p-8 md:py-32",
         reversed && "md:[&>*:first-child]:order-2"
       )}
       style={{ perspective: 1400 }}
       initial={{ opacity: 0, y: 90, rotateX: 6, scale: 0.94 }}
       whileInView={{ opacity: 1, y: 0, rotateX: 0, scale: 1 }}
       viewport={{ once: true, margin: "-15%" }}
-        transition={{ duration: 1.1, ease: EXHIBIT_EASE }}
+      transition={{ duration: 1.1, ease: EXHIBIT_EASE }}
     >
       <a
         href={project.liveLink}
         target="_blank"
         rel="noreferrer"
         {...bind("hover")}
-        className="group relative block aspect-[4/3] w-full overflow-hidden rounded-sm"
+        className="relative block aspect-[4/3] w-full overflow-hidden rounded-sm"
       >
         <Image
           src={project.imagePath}
           alt={project.title}
           fill
           unoptimized
-          className="object-cover opacity-90 transition-transform duration-700 ease-exhibit group-hover:scale-[1.04]"
+          className="object-cover opacity-90 transition-transform duration-500 ease-exhibit group-hover:scale-105"
           sizes="(min-width: 768px) 45vw, 90vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-void/40 via-transparent to-transparent" />
